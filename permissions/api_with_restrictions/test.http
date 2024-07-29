@@ -1,0 +1,11 @@
+GET http://127.0.0.1:8000/api/
+
+###
+
+POST http://127.0.0.1:8000/api/
+Content-Type: application/json
+Authorization: Token cfbf430bdf7b2061bf3c1900460815489a8089ed
+
+{
+    'title': 'top'
+}
